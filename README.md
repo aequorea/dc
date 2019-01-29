@@ -1,7 +1,7 @@
 ### dc
 design compiler -- generate a netlist from a text description of an electronic design
 
-Compile with fpc (free pascal compiler). I think it's really nice that software from 1990 compiled without changes and "just worked." This is among the oldest source code I still have.
+Compile with fpc (free pascal compiler). I think it's really nice that software from 1990 compiled without changes and "just worked." The compiler didn't even complain about the vestigial control-z that DOS put at the end of the file.
 
 Takes a .dc file as input. When you run the program do not include the file extension, just the filename without the extension. The output is a .net file which has the netlist.
 
